@@ -3,16 +3,18 @@ public class Product {
     private String name;
     private int price;
 
-    public Product(String name, int price) {
+    // Public method to set the name
+    public void setName(String name) {
         this.name = name;
+    }
+    public void setPrice(int price) {
         this.price = price;
     }
-
-    // =========== GETTER ===========
-    public String getName() { return name; }
-    public int getPrice() { return price; }
-
-    // =========== SETTER ===========
-    public String setName() { return name; }
-    public int setPrice() { return price; }
+    // Public method to get the name
+    public String getName() {
+        return name;
+    }
+    public int getPrice() {
+        return price;
+    }
 }
