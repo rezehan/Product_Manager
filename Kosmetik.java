@@ -4,6 +4,6 @@ public class Kosmetik extends Product {
     public void infoKosmetik() {
         System.out.println("Ini adalah produk kosmetik " 
         + getName() + " dengan jenis shade " 
-        + shade);
+        + shade + "Dengan Harga " + getPrice());
     }
 }
